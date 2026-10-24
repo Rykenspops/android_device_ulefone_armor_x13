@@ -1,13 +1,6 @@
-#
-# Copyright (C) 2026 The Android Open Source Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_vendor_boot_a.mk
+    $(LOCAL_DIR)/omni_armor_x13.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_vendor_boot_a-user \
-    omni_vendor_boot_a-userdebug \
-    omni_vendor_boot_a-eng
-
+    omni_armor_x13-trunk_staging-eng \
+    omni_armor_x13-trunk_staging-userdebug
